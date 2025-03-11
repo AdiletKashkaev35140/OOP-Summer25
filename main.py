@@ -1,18 +1,19 @@
-class Student:
-    def __init__(self, first_name, last_name, index_number, nationality):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.index_number = index_number
-        self.nationality = nationality
+# basic_data_structures.py
 
-    def display(self):
-        return f"Name: {self.first_name} {self.last_name}, Index Number: {self.index_number}, Nationality: {self.nationality}"
+# Example of a list
+my_list = [1, 2, 3, 4, 5]
 
-students = [
-    Student("John", "Doe", "312345", "American"),
-    Student("Anna", "Smith", "567890", "British"),
-    Student("Ahmed", "Khan", "511223", "Pakistani")
-]
+# Example of a dictionary
+my_dict = {'name': 'Alice', 'age': 25}
 
-for student in students:
-    print(student.display())
+# Example of a tuple
+my_tuple = (10, 20, 30)
+
+# Example of a set
+my_set = {1, 2, 3, 4}
+
+# Print the variables
+print("List:", my_list)
+print("Dictionary:", my_dict)
+print("Tuple:", my_tuple)
+print("Set:", my_set)
